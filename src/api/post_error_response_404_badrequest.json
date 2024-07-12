@@ -1,0 +1,128 @@
+{
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /auth/loginii</pre>\n</body>\n</html>\n",
+  "status": 404,
+  "headers": {
+    "access-control-allow-origin": "*",
+    "alt-svc": "h3=\":443\"; ma=86400",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "81a3bd5f78e035f7-FRA",
+    "content-security-policy": "default-src 'none'",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 22 Oct 2023 18:17:53 GMT",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=g2JvPloFfwklvGu4DM3wuv0wb3O7wsF774ewaElO9x3o6vX7g%2F5sMzgz3Z4anvgajd%2F92OEp8jqMuc5x9ngiRR%2FFdRw1yMS4gTzmyeVBofotpoGPmh2zFfD5XjcZIKlY4%2BX5\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "x-powered-by": "Express"
+  },
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "adapter": [
+      "xhr",
+      "http"
+    ],
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "env": {},
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "method": "post",
+    "url": "https://fakestoreapi.com/auth/loginii",
+    "data": "{\"username\":\"kevinryann\",\"password\":\"kev02937@\"}"
+  },
+  "request": {
+    "UNSENT": 0,
+    "OPENED": 1,
+    "HEADERS_RECEIVED": 2,
+    "LOADING": 3,
+    "DONE": 4,
+    "readyState": 4,
+    "status": 404,
+    "timeout": 0,
+    "withCredentials": true,
+    "upload": {},
+    "_aborted": false,
+    "_hasError": false,
+    "_method": "POST",
+    "_perfKey": "network_XMLHttpRequest_https://fakestoreapi.com/auth/loginii",
+    "_response": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /auth/loginii</pre>\n</body>\n</html>\n",
+    "_url": "https://fakestoreapi.com/auth/loginii",
+    "_timedOut": false,
+    "_trackingName": "unknown",
+    "_incrementalEvents": false,
+    "_performanceLogger": {
+      "_timespans": {
+        "network_XMLHttpRequest_https://fakestoreapi.com/auth/loginii": {
+          "startTime": 7593425.433581,
+          "endTime": 7593945.840981,
+          "totalTime": 520.4073999999091
+        },
+        "network_XMLHttpRequest_https://fakestoreapi.com/auth/login": {
+          "startTime": 7832918.607281,
+          "endTime": 7833294.610981,
+          "totalTime": 376.0036999993026
+        }
+      },
+      "_extras": {},
+      "_points": {
+        "initializeCore_start": 7491156.389181,
+        "initializeCore_end": 7491286.561081
+      },
+      "_pointExtras": {},
+      "_closed": false,
+      "_isLoggingForWebPerformance": false
+    },
+    "responseHeaders": {
+      "content-security-policy": "default-src 'none'",
+      "x-content-type-options": "nosniff",
+      "content-type": "text/html; charset=utf-8",
+      "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=g2JvPloFfwklvGu4DM3wuv0wb3O7wsF774ewaElO9x3o6vX7g%2F5sMzgz3Z4anvgajd%2F92OEp8jqMuc5x9ngiRR%2FFdRw1yMS4gTzmyeVBofotpoGPmh2zFfD5XjcZIKlY4%2BX5\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "cf-ray": "81a3bd5f78e035f7-FRA",
+      "x-powered-by": "Express",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cf-cache-status": "DYNAMIC",
+      "date": "Sun, 22 Oct 2023 18:17:53 GMT",
+      "server": "cloudflare",
+      "access-control-allow-origin": "*"
+    },
+    "_requestId": null,
+    "_headers": {
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+    },
+    "_responseType": "",
+    "_sent": true,
+    "_lowerCaseResponseHeaders": {
+      "content-security-policy": "default-src 'none'",
+      "x-content-type-options": "nosniff",
+      "content-type": "text/html; charset=utf-8",
+      "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=g2JvPloFfwklvGu4DM3wuv0wb3O7wsF774ewaElO9x3o6vX7g%2F5sMzgz3Z4anvgajd%2F92OEp8jqMuc5x9ngiRR%2FFdRw1yMS4gTzmyeVBofotpoGPmh2zFfD5XjcZIKlY4%2BX5\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "cf-ray": "81a3bd5f78e035f7-FRA",
+      "x-powered-by": "Express",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "cf-cache-status": "DYNAMIC",
+      "date": "Sun, 22 Oct 2023 18:17:53 GMT",
+      "server": "cloudflare",
+      "access-control-allow-origin": "*"
+    },
+    "_subscriptions": [],
+    "responseURL": "https://fakestoreapi.com/auth/loginii"
+  }
+}
